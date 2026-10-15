@@ -1,0 +1,29 @@
+.project-one {
+    .project-image {
+        background: url('../src/images/planted.png') 25% center / cover no-repeat;
+    }
+}.project-two {
+    .project-image {
+        background: url('../src/images/tuarca.png') 25% center / cover no-repeat;
+}}
+.project-three {
+    .project-image {
+        background: url('../src/images/banner-maraton.jpg') left / cover no-repeat;
+    }
+}
+.project-five {
+    .project-image {
+        background: url('../src/images/invitashopping.png') left / cover no-repeat;
+    }
+}
+.project-four {
+    .project-image {
+        background: url('../src/images/abrele.png') left / cover no-repeat;
+    }
+}
+.project-six {
+    .project-image {
+        background: url('../src/images/construccion.png') top left / cover no-repeat;
+    }
+    
+}

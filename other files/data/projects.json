@@ -1,0 +1,80 @@
+[
+  {
+    "id": "plant-care",
+    "title": "Plant Care",
+    "category": "Mobile App",
+    "summary": "A friendlier way to understand and care for houseplants.",
+    "description": "A mobile app concept focused on helping people understand and care for their houseplants.",
+    "image": "/src/images/plant-app/mockup-plant.png",
+    "imageAlt": "Plant Care app mockup",
+    "visualColor": "#ceede7",
+    "caseStudy": {
+      "overviewTitle": "A friendlier way to care for houseplants",
+      "overview": "The project explores how a mobile app can make it easier for people to understand and care for houseplants."
+    }
+  },
+  {
+    "id": "tu-arca",
+    "title": "Tu Arca",
+    "category": "UX/UI Design",
+    "summary": "A real estate platform I designed to help property owners and investors find relevant services and information.",
+    "description": "A real estate platform for property owners and investors.",
+    "visualColor": "#f4d7d0"
+  },
+  {
+    "id": "maraton-de-seguros",
+    "title": "Maraton de Seguros",
+    "category": "Product Design",
+    "summary": "A training app designed to help insurance agents prepare for getting certified.",
+    "description": "A training app that helps insurance agents learn to sell insurance products.",
+    "visualColor": "#d8d1ed"
+  },
+  {
+    "id": "abrele-app",
+    "title": "Abrele App",
+    "category": "UI Design",
+    "summary": "A drink delivery app designed to make ordering beverages quick and convenient.",
+    "description": "A mobile app concept for ordering and tracking drink deliveries.",
+    "visualColor": "#d6e8d0"
+  },
+  {
+    "id": "invitashopping",
+    "title": "Invitashopping",
+    "category": "UI Design",
+    "summary": "An e-commerce experience designed to make finding and purchasing products easier.",
+    "description": "An online shopping platform designed to make product discovery and purchasing easier.",
+    "visualColor": "#29252e"
+  },
+  {
+    "id": "sr-construccion",
+    "title": "Sr. Construccion",
+    "category": "UI Design",
+    "summary": "A marketplace I designed to help customers find construction materials, tools, and supplies.",
+    "description": "A marketplace for construction materials, tools, and supplies.",
+    "visualColor": "#f1dbc8"
+  },
+  {
+    "id": "ameif",
+    "title": "AMEIF",
+    "category": "Brand Identity",
+    "summary": "A website designed for a Mexican association supporting influencers and content creators.",
+    "description": "A website for a Mexican association supporting influencers and content creators.",
+    "visualColor": "#ed8a73"
+  },
+  {
+    "id": "mint-capital-group",
+    "title": "Mint Capital Group",
+    "category": "Brand Identity",
+    "summary": "A brand identity designed for a commercial interior products company.",
+    "description": "Brand identity work for a commercial interior products company.",
+    "visualColor": "#e6ddce"
+  },
+  {
+    "id": "design-process",
+    "title": "From Idea to Interface",
+    "category": "Design Process",
+    "summary": "A visual exploration of my process from sketches to prototype.",
+    "description": "A visual exploration of a design process, from initial ideas to a prototype.",
+    "visualColor": "#262321"
+  }
+]

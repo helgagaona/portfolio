@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Planted | UX/UI Case Study | Helga</title>
+  <meta name="description" content="A UX/UI case study for Planted, a plant-care feature that helps beginners decide when to act and when to wait.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./planted-case-study.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#overview" aria-label="Planted case study home">Helga<span>.</span></a>
+      <nav class="site-nav" aria-label="Case study sections">
+        <a href="#problem">Overview</a>
+        <a href="#research">Research</a>
+        <a href="#persona">User</a>
+        <a href="#wireframes">Design</a>
+        <a href="#reflection">Takeaways</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="overview">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">UX/UI case study · Personal project</p>
+          <h1>Helping new plant owners make calmer care decisions</h1>
+          <p class="hero-lead">
+            I designed a focused mobile feature for Planted that considers a plant's recent care history before recommending what to do next, including when the best recommendation is to wait.
+          </p>
+          <a class="button" href="#problem">View the case study <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <div class="hero-visual media-frame">
+          <img src="../public/images/Paper Wireframes/Diagnose Steps.JPG" alt="Paper wireframe showing the steps for diagnosing a plant concern">
+          <span class="media-label">Selected paper wireframe</span>
+        </div>
+      </div>
+
+      <div class="wrap project-facts" aria-label="Project details">
+        <dl><dt>Role</dt><dd>UX/UI designer · Solo</dd></dl>
+        <dl><dt>Timeline</dt><dd>In progress</dd></dl>
+        <dl><dt>Platform</dt><dd>Mobile app</dd></dl>
+        <dl><dt>Tools</dt><dd>Figma · FigJam</dd></dl>
+        <dl><dt>Current stage</dt><dd>Paper wireframes</dd></dl>
+      </div>
+    </section>
+
+    <section class="chapter chapter-user" aria-label="Understanding the user">
+      <div class="wrap chapter-inner">
+        <span class="chapter-number">01</span>
+        <div>
+          <p class="eyebrow">Understanding the user</p>
+          <h2>Research, pain points, and the person behind the problem</h2>
+        </div>
+      </div>
+    </section>
+
+    <section id="problem">
+      <div class="wrap split intro-section">
+        <div class="section-heading">
+          <p class="eyebrow">Project overview</p>
+          <h2>The problem</h2>
+        </div>
+        <div class="prose">
+          <p class="large-copy">
+            Most plant-care apps give users immediate instructions based on a symptom without considering what they have already tried. Beginners may respond by repeatedly changing the plant's water, soil, light, or location, creating more stress instead of solving the problem.
+          </p>
+          <div class="callout">
+            <p class="eyebrow">Design goal</p>
+            <p>Help beginners understand what has already happened, then decide whether to make one change, continue observing, or wait during the plant's adaptation period.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap detail-grid">
+        <article>
+          <h3>My role</h3>
+          <p>Solo UX/UI designer and researcher.</p>
+        </article>
+        <article>
+          <h3>Responsibilities</h3>
+          <p>Competitive research, personas, problem definition, feature structure, user flow, and paper wireframes.</p>
+        </article>
+        <article>
+          <h3>Project scope</h3>
+          <p>One focused feature rather than a complete plant-care app.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="research" class="section-tint">
+      <div class="wrap section-stack">
+        <div class="section-heading reading-width">
+          <p class="eyebrow">Research summary</p>
+          <h2>Existing apps answer quickly, but rarely explain the context</h2>
+          <p class="large-copy">
+            I reviewed existing plant-care apps to understand how they respond to symptoms and care tasks. I focused on whether recommendations considered previous user actions or simply told users what to do immediately.
+          </p>
+        </div>
+
+        <div class="metric-row">
+          <div class="metric"><strong>4</strong><span>competitors reviewed</span></div>
+          <div class="metric"><strong>2</strong><span>personas defined</span></div>
+          <div class="metric"><strong>1</strong><span>focused feature flow</span></div>
+        </div>
+
+        <div class="audit-wrap">
+          <div class="section-heading compact-heading">
+            <p class="eyebrow">Competitive analysis</p>
+            <h3>Where Planted can help</h3>
+          </div>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">App</th>
+                  <th scope="col">Strength</th>
+                  <th scope="col">Gap</th>
+                  <th scope="col">Opportunity for Planted</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Planta</th>
+                  <td>Reminders, schedules, and tracking</td>
+                  <td>Can feel overwhelming for beginners</td>
+                  <td>Consider recent care before recommending another change</td>
+                </tr>
+                <tr>
+                  <th scope="row">PictureThis</th>
+                  <td>Photo diagnosis and a large database</td>
+                  <td>Advice can arrive without a clear pause</td>
+                  <td>Pair diagnosis with context and a calmer next step</td>
+                </tr>
+                <tr>
+                  <th scope="row">Greg</th>
+                  <td>Friendly identity and reminders</td>
+                  <td>More focused on schedules than response over time</td>
+                  <td>Help users understand when a plant may still be adapting</td>
+                </tr>
+                <tr>
+                  <th scope="row">Plant Parent</th>
+                  <td>Identification, diagnosis, and care plans</td>
+                  <td>Navigation and content can feel crowded</td>
+                  <td>Present one reasonable action at a time</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div id="pain-points" class="pain-points">
+          <div class="section-heading compact-heading">
+            <p class="eyebrow">User research: pain points</p>
+            <h3>Four opportunities shaped the feature</h3>
+          </div>
+          <div class="four-up">
+            <article class="insight-card">
+              <span class="number">01</span>
+              <h3>Immediate advice creates anxiety</h3>
+              <p>Users may assume they need to change something right away when the plant may need time to adapt.</p>
+            </article>
+            <article class="insight-card">
+              <span class="number">02</span>
+              <h3>Care history is easy to forget</h3>
+              <p>Recent watering, soil, light, and location changes can affect what is reasonable to do next.</p>
+            </article>
+            <article class="insight-card">
+              <span class="number">03</span>
+              <h3>Symptoms feel alarming</h3>
+              <p>New plant owners need context that helps them understand whether a change is urgent or expected.</p>
+            </article>
+            <article class="insight-card">
+              <span class="number">04</span>
+              <h3>Waiting needs explanation</h3>
+              <p>A helpful product should make observing the plant feel like an informed care decision.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="persona">
+      <div class="wrap section-stack">
+        <div class="section-heading reading-width">
+          <p class="eyebrow">Persona</p>
+          <h2>Maya needs reassurance before she needs another instruction</h2>
+          <p class="large-copy">Maya is the primary persona because her anxiety represents the central problem this feature is designed to solve.</p>
+        </div>
+
+        <div class="persona-layout">
+          <article class="persona-card">
+            <div class="persona-image media-frame">
+              <img src="../public/images/persona-maya.jpg" alt="Maya user persona">
+            </div>
+            <div class="persona-content">
+              <div class="title-row"><h3>Maya</h3><span class="tag">Primary</span></div>
+              <p>A new plant owner who becomes anxious when her plant looks different after being purchased or moved.</p>
+              <dl class="persona-details">
+                <div><dt>Goals</dt><dd>Understand what is happening, avoid making the problem worse, and know when to act.</dd></div>
+                <div><dt>Frustrations</dt><dd>Conflicting advice and recommendations that ignore what she already tried.</dd></div>
+                <div><dt>Needs</dt><dd>Reassurance, care history, one clear next step, and permission to wait.</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <div class="persona-side">
+            <div class="statement-card">
+              <p class="eyebrow">Problem statement</p>
+              <p class="statement">Maya needs guidance that considers her plant's recent care history because generic instructions can make her change things too quickly and increase her anxiety.</p>
+            </div>
+            <div class="journey-card" id="journey">
+              <p class="eyebrow">Maya's journey</p>
+              <div class="journey-list">
+                <div><span>01</span><p><strong>Notices a symptom</strong><small>“Something is wrong.”</small></p></div>
+                <div><span>02</span><p><strong>Searches for advice</strong><small>Finds conflicting instructions.</small></p></div>
+                <div><span>03</span><p><strong>Reviews care history</strong><small>Understands what she already changed.</small></p></div>
+                <div><span>04</span><p><strong>Receives guidance</strong><small>Knows whether to act or wait.</small></p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter chapter-design" aria-label="Starting the design">
+      <div class="wrap chapter-inner">
+        <span class="chapter-number">02</span>
+        <div>
+          <p class="eyebrow">Starting the design</p>
+          <h2>Turning the research into one focused feature</h2>
+        </div>
+      </div>
+    </section>
+
+    <section id="flows" class="section-tint warm-tint">
+      <div class="wrap section-stack">
+        <div class="split feature-intro">
+          <div class="section-heading">
+            <p class="eyebrow">Feature structure</p>
+            <h2>One concern, one history, one next step</h2>
+          </div>
+          <div class="prose">
+            <p class="large-copy">The feature connects a plant's current concern with its recent care history. The larger app could include profiles, reminders, and progress tracking, but those areas remain outside this project's scope.</p>
+          </div>
+        </div>
+
+        <div class="flow-grid">
+          <div class="flow-steps">
+            <div class="flow-step"><span>01</span><p>Plant concern</p></div>
+            <div class="flow-step"><span>02</span><p>Recent care history</p></div>
+            <div class="flow-step"><span>03</span><p>Current symptoms</p></div>
+            <div class="flow-step"><span>04</span><p>Recommended next step</p></div>
+            <div class="flow-step"><span>05</span><p>Observation period</p></div>
+            <div class="flow-step"><span>06</span><p>Follow-up check-in</p></div>
+          </div>
+          <div class="flow-note">
+            <p class="eyebrow">Primary user flow</p>
+            <p>Open a plant concern, review recent care history, describe the symptom, receive one recommendation, then act or wait and observe.</p>
+            <div class="flow-result"><strong>Possible recommendation</strong><span>Wait and check in again later</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="wireframes">
+      <div class="wrap section-stack">
+        <div class="split">
+          <div class="section-heading">
+            <p class="eyebrow">Paper wireframes</p>
+            <h2>Exploring how the feature can slow the user down</h2>
+          </div>
+          <div class="prose">
+            <p class="large-copy">I explored different ways to help Maya understand the diagnosis process, review recent care, and receive one clear recommendation.</p>
+          </div>
+        </div>
+
+        <div class="wireframe-gallery">
+          <figure class="wireframe-card media-frame">
+            <img src="../public/images/Paper Wireframes/Diagnose Steps.JPG" alt="Paper wireframe showing diagnosis steps">
+            <figcaption><strong>01 · Diagnose steps</strong><span>Break the process into smaller decisions.</span></figcaption>
+          </figure>
+          <figure class="wireframe-card media-frame">
+            <img src="../public/images/Paper Wireframes/Recovering Status.JPG" alt="Paper wireframe showing a recovering plant status">
+            <figcaption><strong>02 · Recovering status</strong><span>Make observation visible as a care state.</span></figcaption>
+          </figure>
+          <figure class="wireframe-card media-frame">
+            <img src="../public/images/Paper Wireframes/History.JPG" alt="Paper wireframe showing plant care history">
+            <figcaption><strong>03 · Care history</strong><span>Show what the user already tried.</span></figcaption>
+          </figure>
+        </div>
+
+        <div class="decision-grid">
+          <article>
+            <span class="number">01</span>
+            <h3>Show context before advice</h3>
+            <p>The care history gives the recommendation a reason instead of making it feel generic.</p>
+          </article>
+          <article>
+            <span class="number">02</span>
+            <h3>Give one reasonable action</h3>
+            <p>Reducing competing instructions can help a beginner feel more confident.</p>
+          </article>
+          <article>
+            <span class="number">03</span>
+            <h3>Make waiting actionable</h3>
+            <p>A check-in date gives the user a clear way to continue caring without overcorrecting.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter chapter-refine" aria-label="Refining the design">
+      <div class="wrap chapter-inner">
+        <span class="chapter-number">03</span>
+        <div>
+          <p class="eyebrow">Refining the design</p>
+          <h2>Future work will test clarity, trust, and accessibility</h2>
+        </div>
+      </div>
+    </section>
+
+    <section id="testing" class="section-tint green-tint">
+      <div class="wrap section-stack">
+        <div class="section-heading reading-width">
+          <p class="eyebrow">Testing plan</p>
+          <h2>The next step is learning whether users trust the pause</h2>
+          <p class="large-copy">Usability testing has not been completed yet. The paper wireframes will guide the first digital prototype and the questions I test with users.</p>
+        </div>
+
+        <div class="test-grid">
+          <article><span class="number">01</span><h3>Understand the history</h3><p>Can users explain what has already happened to the plant?</p></article>
+          <article><span class="number">02</span><h3>Trust the recommendation</h3><p>Do users understand why the feature recommends waiting?</p></article>
+          <article><span class="number">03</span><h3>Choose the next step</h3><p>Can users distinguish between acting now and observing?</p></article>
+        </div>
+
+        <div id="ui" class="accessibility-panel">
+          <div class="section-heading compact-heading">
+            <p class="eyebrow">Future visual direction</p>
+            <h3>Calm, clear, and accessible</h3>
+          </div>
+          <div class="accessibility-list">
+            <p><strong>Readable hierarchy</strong><span>Use clear headings and comfortable text sizes.</span></p>
+            <p><strong>Meaning beyond color</strong><span>Pair status colors with labels and icons.</span></p>
+            <p><strong>Easy touch targets</strong><span>Make actions simple to find and comfortable to use.</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter chapter-forward" aria-label="Going forward">
+      <div class="wrap chapter-inner">
+        <span class="chapter-number">04</span>
+        <div>
+          <p class="eyebrow">Going forward</p>
+          <h2>What I learned and what comes next</h2>
+        </div>
+      </div>
+    </section>
+
+    <section id="reflection">
+      <div class="wrap section-stack">
+        <div class="progress-summary">
+          <div class="section-heading">
+            <p class="eyebrow">Current progress</p>
+            <h2>The project has a defined problem and a testable direction</h2>
+          </div>
+          <div class="progress-stats">
+            <div><strong>2</strong><span>personas</span></div>
+            <div><strong>4</strong><span>competitors</span></div>
+            <div><strong>1</strong><span>focused feature</span></div>
+          </div>
+        </div>
+
+        <div class="takeaway-grid">
+          <article class="takeaway-card dark-card">
+            <p class="eyebrow">Takeaway</p>
+            <h3>Context can be more helpful than more instructions</h3>
+            <p>Before recommending another change, Planted considers what has already happened to the plant.</p>
+          </article>
+          <article class="takeaway-card">
+            <p class="eyebrow">What I learned</p>
+            <h3>Waiting can be an active care decision</h3>
+            <p>Good guidance does not always add another task. Sometimes it gives the user enough context to pause with confidence.</p>
+          </article>
+        </div>
+
+        <div class="next-steps">
+          <div class="section-heading compact-heading">
+            <p class="eyebrow">Next steps</p>
+            <h3>Continue from the paper wireframes</h3>
+          </div>
+          <ol class="next-step-list">
+            <li><span>01</span><p>Create digital wireframes for the focused feature.</p></li>
+            <li><span>02</span><p>Prototype the care-history and check-in interactions.</p></li>
+            <li><span>03</span><p>Test whether users understand when to act and when to wait.</p></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <div>
+        <p class="eyebrow">Let's connect</p>
+        <h2>Thanks for taking a look.</h2>
+        <p>Interested in my work? Get in touch to learn more about my UX/UI projects.</p>
+      </div>
+      <div class="footer-actions">
+        <a class="button" href="mailto:your-email@example.com">Email me</a>
+        <a class="button button-light" href="../index.html">More case studies</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
