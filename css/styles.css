@@ -337,7 +337,7 @@ a {
 }
 
 .project-info span {
-  font-size: 0.67rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--muted);
