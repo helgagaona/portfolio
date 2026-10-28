@@ -1,4 +1,7 @@
-/* add layer rules */
+@layer project, base, components;
 
-@import './styles.css';
-@import './projects.css';
+@import './planted.css' layer(project);
+
+@import './styles.css' layer(base);
+@import './projects.css' layer(components);
+
